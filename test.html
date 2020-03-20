@@ -3,6 +3,7 @@
     <head>
         <title>Test</title>
         <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
     </head>
 
     <body>
@@ -36,6 +37,50 @@
                 </ul>
             </nav>
         </header>
+
+        <form name="testHtml" action="!">
+
+            <p>
+                Какой тег предназначен для создания ссылок:<br />
+                    <label><input type="radio"  name="forref" value="a" />&lt;a&gt;</label><br />
+                    <label><input type="radio"  name="forref" value="a/" />&lt;a &#47;&gt;</label><br />
+                    <label><input type="radio"  name="forref" value="ref" />&lt;ref&gt;</label><br />
+                    <label><input type="radio"  name="forref" value="ref/" />&lt;ref &#47;&gt;</label><br />
+             </p>
+             <p>
+                Какой тег предназначен для создания нумерованного списка:<br />
+                    <label><input type="radio"  name="forlist" value="li" />&lt;li&gt;</label><br />
+                    <label><input type="radio"  name="forlist" value="dl" />&lt;dl&gt;</label><br />
+                    <label><input type="radio"  name="forlist" value="ol" />&lt;ol&gt;</label><br />
+                    <label><input type="radio"  name="forlist" value="ul" />&lt;ul&gt;</label><br />
+             </p>
+             <p>
+             
+                Какой тег предназначен для передачи служебной информации браузеру:<br />
+                    <label><input type="radio"  name="formeta" value="info" />&lt;info;&gt;</label><br />
+                    <label><input type="radio"  name="formeta" value="info/" />&lt;info &#47;&gt;</label><br />
+                    <label><input type="radio"  name="formeta" value="meta" />&lt;meta;&gt;</label><br />
+                    <label><input type="radio"  name="formeta" value="meta/" />&lt;meta &#47;&gt;</label><br />
+             </p>
+             <p>
+                    
+                Какие теги используются при создании таблицы:<br />
+                    <label><label><input type="checkbox" name="fortable" value="bodyt" />&lt;bodyt&gt;</label><br />
+                    <label><input type="checkbox" name="fortable" value="td" />&lt;td&gt;</label><br />
+                    <label><input type="checkbox" name="fortable" value="groupcol" />&lt;groupcol&gt;</label><br />
+                    <label><input type="checkbox" name="fortable" value="col" />&lt;col &#47;&gt;</label><br />
+             </p>
+             <p>			
+                Какие атрибуты используются при создании форм:<br />
+                    <label><input type="checkbox" name="forform" value="autocomplete" />autocomplete</label><br />
+                    <label><input type="checkbox" name="forform" value="action" />action</label><br />
+                    <label><input type="checkbox" name="forform" value="charset" />charset</label><br />
+                    <label><input type="checkbox" name="forform" value="validate" />validate</label><br /> 
+             </p>
+             <p>
+            <input type="submit" text="Result">
+             </p>
+        </form>
  
         <footer>
             <address>
