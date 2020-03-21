@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="eng">
-    <head>
-        <title>Technologies</title>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="style.css" />
-    </head>
 
-    <body>
+<head>
+    <title>Technologies</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="mainStyle">
         <header>
             <img src="frontEndLogo.png" alt="logo" class="mainLogo">
             <h1>Front-End Technologies</h1>
             <nav>
-                <ul>
+                <ul class="navMenu">
                     <li>
                         <a href="main.html">Main Page</a>
                     </li>
                     <li>
                         <a href="technologies.html">Technologies</a>
 
-                        <ul>
+                        <ul class="subMenu">
                             <li>
                                 <a href="techHtml.html">HTML5</a>
                             </li>
@@ -37,51 +39,59 @@
                 </ul>
             </nav>
         </header>
+    </div>
 
-        <div class="text">
-            <article>
-                Курс посвящен следующим Web-технологиям:
-                <dl>
-                    <dt><strong>HTML</strong></dt>
-                    <dd>HyperText Markup Language</dd>
-                    <dt><strong>CSS</strong></dt>
-                    <dd>Cascading Style Sheets</dd>
-                </dl>
-            </article>
-        </div>
-        
+    <div class="mainStyle">
+
+
+
         <aside>
             <h3>Дополнительная информация</h3>
-                Web-технологии можно условно разделить на две пересекающиеся группы: <em>клиентские</em> и <em>серверные</em>
-                <ul>
-                    <li>
-                        Клиентские:
-                            <dl>
-                                <dt>HTML</dt>
-                                <dd>стандартный язык разметки Web-страниц</dd>
-                                <dt>CSS</dt>
-                                <dd>средство описания и оформления внешнего вида Web-страниц</dd>
-                                <dt>JavaScript</dt>
-                                <dd>применяется в браузерах как язык сценариев для придания интерактивности Web-страницам </dd>
-                            </dl>                  
-                    </li>
+            Web-технологии можно условно разделить на две пересекающиеся группы: <em>клиентские</em> и
+            <em>серверные</em>
+            <ul>
+                <li>
+                    Клиентские:
+                    <dl>
+                        <dt>HTML</dt>
+                        <dd>стандартный язык разметки Web-страниц</dd>
+                        <dt>CSS</dt>
+                        <dd>средство описания и оформления внешнего вида Web-страниц</dd>
+                        <dt>JavaScript</dt>
+                        <dd>применяется в браузерах как язык сценариев для придания интерактивности Web-страницам
+                        </dd>
+                    </dl>
+                </li>
 
-                    <li>
-                        Серверные:
-                            
-                        <dl>
-                            <dt>ASP.NET (C#)</dt>
-                            <dd>технология создания Web-приложений от компании Microsoft</dd>
-                            <dt>JSP (Java)</dt>
-                            <dd>технология создания Web-приложений от компании Oracle</dd>
-                            <dt>PHP</dt>
-                            <dd>язык программирования, интенсивно применяемый для разработки Web-приложений</dd>
-                        </dl>    
-                    </li>
-                </ul>
+                <li>
+                    Серверные:
+
+                    <dl>
+                        <dt>ASP.NET (C#)</dt>
+                        <dd>технология создания Web-приложений от компании Microsoft</dd>
+                        <dt>JSP (Java)</dt>
+                        <dd>технология создания Web-приложений от компании Oracle</dd>
+                        <dt>PHP</dt>
+                        <dd>язык программирования, интенсивно применяемый для разработки Web-приложений</dd>
+                    </dl>
+                </li>
+            </ul>
         </aside>
+        <article class="qwe">
+            Курс посвящен следующим Web-технологиям:
+            <dl>
+                <dt><strong>HTML</strong></dt>
+                <dd>HyperText Markup Language</dd>
+                <dt><strong>CSS</strong></dt>
+                <dd>Cascading Style Sheets</dd>
+            </dl>
+        </article>
 
 
+
+    </div>
+
+    <div class="mainStyle">
         <footer>
             <address>
                 <a href="mailto:email@example.com">Write to: email</a>
@@ -90,5 +100,7 @@
                 &copy; Example Name, <time>2020</time>
             </p>
         </footer>
-    </body>
+    </div>
+</body>
+
 </html>
